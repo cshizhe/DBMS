@@ -1,0 +1,43 @@
+﻿生成启动时间为 2015/10/20 8:50:14。
+     1>项目“F:\Course\数据库原理与实现\Experiments\StorageManagement\StorageManagement\StorageManagement.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Software\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bit.cpp buffMana.cpp b_plus_tree.cpp diskOpt.cpp err.cpp fileOpt.cpp init.cpp show.cpp test.cpp update.cpp
+         update.cpp
+         test.cpp
+     1>f:\course\数据库原理与实现\experiments\storagemanagement\storagemanagement\test.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>f:\course\数据库原理与实现\experiments\storagemanagement\storagemanagement\test.cpp(32): warning C4101: “fid2”: 未引用的局部变量
+     1>f:\course\数据库原理与实现\experiments\storagemanagement\storagemanagement\test.cpp(70): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         show.cpp
+         init.cpp
+     1>f:\course\数据库原理与实现\experiments\storagemanagement\storagemanagement\init.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>f:\course\数据库原理与实现\experiments\storagemanagement\storagemanagement\init.cpp(25): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>f:\course\数据库原理与实现\experiments\storagemanagement\storagemanagement\init.cpp(64): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\software\microsoft visual studio 12.0\vc\include\stdio.h(211) : 参见“fopen”的声明
+         fileOpt.cpp
+         err.cpp
+         diskOpt.cpp
+         b_plus_tree.cpp
+         buffMana.cpp
+         bit.cpp
+         正在生成代码...
+       Link:
+         E:\Software\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Course\数据库原理与实现\Experiments\StorageManagement\Debug\StorageManagement.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Course\数据库原理与实现\Experiments\StorageManagement\Debug\StorageManagement.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Course\数据库原理与实现\Experiments\StorageManagement\Debug\StorageManagement.lib" /MACHINE:X86 Debug\bit.obj
+         Debug\buffMana.obj
+         Debug\b_plus_tree.obj
+         Debug\diskOpt.obj
+         Debug\err.obj
+         Debug\fileOpt.obj
+         Debug\init.obj
+         Debug\show.obj
+         Debug\test.obj
+         Debug\update.obj
+         StorageManagement.vcxproj -> F:\Course\数据库原理与实现\Experiments\StorageManagement\Debug\StorageManagement.exe
+     1>已完成生成项目“F:\Course\数据库原理与实现\Experiments\StorageManagement\StorageManagement\StorageManagement.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.62
